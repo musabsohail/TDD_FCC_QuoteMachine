@@ -47,10 +47,9 @@ describe('Render QuoteBtn in QuoteBox', () => {
         expect(innerDiv.length).toBe(1)
     })
 
-
 })
 
-describe('Render Quote Tweet in QuoteBox', () => {
+describe('Render Quote Tweet Btn in QuoteBox', () => {
 
     it('Component with id "tweet-quote" renders in QuoteBox without err!', () => {
         const innerDiv = component.find(QuoteTweet);
