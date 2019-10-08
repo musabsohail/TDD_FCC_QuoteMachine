@@ -2,6 +2,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 
 import QuoteBox from './index'
+import QuoteBtn from '../QuoteBtn'
 import QuoteAuthor from '../QuoteAuthor';
 import QuoteText from '../Quotetext';
 
@@ -32,6 +33,16 @@ describe('Render QuoteAuthor in QuoteBox', () => {
 
     it('Component with id "author" renders in QuoteBox without err!', () => {
         const innerDiv = component.find(QuoteAuthor)  
+        expect(innerDiv.length).toBe(1)
+    })
+
+
+})
+
+describe('Render QuoteBtn in QuoteBox', () => {
+
+    it('Component with id "new-quote" renders in QuoteBox without err!', () => {
+        const innerDiv = component.find(QuoteBtn)  
         expect(innerDiv.length).toBe(1)
     })
 
