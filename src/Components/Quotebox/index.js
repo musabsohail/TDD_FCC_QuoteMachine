@@ -8,7 +8,7 @@ class QuoteBox extends Component {
   render () {
       return(
           <div id="quote-box">
-              {/* <QuoteText /> */}
+              <QuoteText />
           </div>
       )
 
