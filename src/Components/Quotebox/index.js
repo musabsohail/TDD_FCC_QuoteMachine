@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import QuoteText from '../Quotetext'
 
 class QuoteBox extends Component {
 
@@ -7,7 +8,7 @@ class QuoteBox extends Component {
   render () {
       return(
           <div id="quote-box">
-              <h1>O brothers, to you I do not recommend work, but struggle.</h1>
+              <QuoteText />
           </div>
       )
 
