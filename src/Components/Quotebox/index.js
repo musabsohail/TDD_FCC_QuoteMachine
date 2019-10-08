@@ -6,7 +6,10 @@ class QuoteBox extends Component {
 
   render () {
       return(
-      <div>Quote Box</div>)
+          <div id="quote-box">
+              <h1>O brothers, to you I do not recommend work, but struggle.</h1>
+          </div>
+      )
 
   }
 
