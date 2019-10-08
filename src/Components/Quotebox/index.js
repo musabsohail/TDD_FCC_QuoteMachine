@@ -10,7 +10,7 @@ class QuoteBox extends Component {
       return(
           <div id="quote-box">
               <QuoteText />
-              {/* <QuoteAuthor /> */}
+              <QuoteAuthor />
           </div>
       )
 
