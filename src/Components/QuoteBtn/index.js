@@ -1,8 +1,8 @@
 import React from 'react';
 
 const QuoteBtn = () => {
-    return ( <button>
-        
+    return ( <button id="new-quote">
+
     </button> );
 }
  
