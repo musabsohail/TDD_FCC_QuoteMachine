@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import QuoteAuthor from '../QuoteAuthor';
 import QuoteBtn from '../QuoteBtn';
 import QuoteText from '../Quotetext';
+import QuoteTweet from '../QuoteTweet';
 
 class QuoteBox extends Component {
 
@@ -13,6 +14,7 @@ class QuoteBox extends Component {
               <QuoteText />
               <QuoteAuthor />
               <QuoteBtn />
+              <QuoteTweet />
           </div>
       )
 
