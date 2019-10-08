@@ -5,6 +5,7 @@ import QuoteBox from './index'
 import QuoteBtn from '../QuoteBtn'
 import QuoteAuthor from '../QuoteAuthor';
 import QuoteText from '../Quotetext';
+import QuoteTweet from '../QuoteTweet';
 
 const component = shallow(<QuoteBox />);
         
@@ -47,4 +48,12 @@ describe('Render QuoteBtn in QuoteBox', () => {
     })
 
 
+describe('Render Quote Tweet Btn in QuoteBox', () => {
+
+    it('Component with id "tweet-quote renders in QuoteBox without err!', () => {
+        const innerDiv = component.find(QuoteTweet);
+        expect(innerDiv.length).toBe(1)
+    })
 })
+  
+  
