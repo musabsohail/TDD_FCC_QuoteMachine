@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import QuoteAuthor from '../QuoteAuthor';
 import QuoteText from '../Quotetext'
 
 class QuoteBox extends Component {
@@ -9,6 +10,7 @@ class QuoteBox extends Component {
       return(
           <div id="quote-box">
               <QuoteText />
+              <QuoteAuthor />
           </div>
       )
 
